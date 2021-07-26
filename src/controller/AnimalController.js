@@ -1,9 +1,12 @@
 import {animal} from '../model'
 class AnimalController{
     create(req, res){
-        const {nome, idade, condicao} = req.body
+        const {nome, tipo, raca, sexo, idade, condicao} = req.body
         animal.create({
             nome: nome,
+            tipo: tipo,
+            raca: raca,
+            sexo: sexo,
             idade: idade,
             condicao: condicao
         })

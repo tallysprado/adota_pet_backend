@@ -1,4 +1,4 @@
-const sequelize = require('../../config/sequelize')
+const sequelize = require('../config/sequelize')
 const Sequelize = require('sequelize')
 const Dono = require('./Dono')
 const Animal = require('./Animal')

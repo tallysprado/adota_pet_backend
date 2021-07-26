@@ -11,9 +11,21 @@ const animal = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false,
         },
+        tipo: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        raca: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        sexo: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
         idade: {
             type: DataTypes.STRING,
-            allowNull: true,
+            allowNull: false,
         },
         condicao: {
             type: DataTypes.BOOLEAN,
